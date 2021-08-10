@@ -54,13 +54,11 @@ Yield:
 
 ## Usage
 
-In the command line, type the command `make` to use the prepared Makefile, or use the following commands:
+In the command line, use the following commands:
 
 ```
-> python quantcast.py
+> python quantcast_class.py
 ```
-
-to run the program as `qbe`.
 
 To test the program, use the following commands:
 
