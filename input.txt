@@ -1,0 +1,44 @@
+14 7
+```json
+{
+	"firstName": "John",
+	"lastName": "Smith",
+	"isAlive": true,
+	"age": 25,
+	"heightCm": "167.64",
+	"address": {
+    	"streetAddress": "21 2nd Street",
+    	"city": "New York",
+    	"state": "NY",
+    	"postalCode": "10021-3100",
+    	"phone": null
+	}
+}
+```
+
+firstName
+address.city
+gender
+age
+isAlive
+address.nation
+address.phone
+
+add { "id" : 1,   "last": "Doe", "first": "John", "location": {"city": "Oakland", "state": "CA", "postalCode": "94607"}, "active": true}
+add { "id" : 2,   "last": "Doe", "first": "Jane", "location": {"city": "San Francisco", "state": "CA", "postalCode": "94105"}, "active": true}
+add { "id" : 3,   "last": "Black", "first": "Jim", "location": {"city": "Oakland", "state": "WA", "postalCode": "99207"}, "active": true}
+add { "id" : 4,   "last": "Frost", "first": "Jack", "location": {"city": "Seattle", "state": "WA", "postalCode": "98204"}, "active": false}
+
+get { "location": {"state": "WA"}, "active": true}
+get { "id": 1}
+get {"last": "Doe"}
+
+{"type":"list","list":[1,2,3,4]}
+{"type":"list","list":[2,3,4,5]}
+{"type":"list","list":[3,4,5,6]}
+{"type":"list","list":[4,5,6,7]}
+{"type":"list","list":[5,6,7,8]}
+{"type":"list","list":[6,7,8,9]}
+
+{"type":"list","list":[1]}
+{"type":"list","list":[3,4]}
